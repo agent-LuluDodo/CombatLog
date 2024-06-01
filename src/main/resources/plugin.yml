@@ -4,3 +4,9 @@ main: de.luludodo.combatlog.CombatLog
 api-version: '1.20'
 authors: [agent_LuluDodo]
 description: Bare bones anti combat log plugin
+commands:
+  combatlog-reload:
+    usage: /<command>
+    description: Reloads the config file
+    permission: combatLog.reload
+    permission-message: "§cYou don't have permission to use this command (missing: combatLog.reload)!"

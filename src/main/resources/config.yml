@@ -1,0 +1,13 @@
+# CombatLog v1.0
+# by agent_LuluDodo
+
+# Time in seconds which a player needs to wait before logging out whilst in combat (only whole numbers supported)
+CombatTime: 30
+
+# The length of the bar displaying the time left until the player is allowed to log out
+BarLength: 30
+
+# The message used as the death message if a player combat-logs
+# %player%: Player that disconnected
+# %killer%: The player which %player% was fighting
+DeathMsg: "%player% quit while fighting %killer%!"
