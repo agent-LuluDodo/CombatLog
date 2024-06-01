@@ -1,0 +1,6 @@
+name: CombatLog
+version: '${project.version}'
+main: de.luludodo.combatlog.CombatLog
+api-version: '1.20'
+authors: [agent_LuluDodo]
+description: Bare bones anti combat log plugin

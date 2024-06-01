@@ -1,0 +1,13 @@
+package de.luludodo.combatlog.listeners;
+
+import de.luludodo.combatlog.CombatPlayer;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+public class PlayerJointListener implements Listener {
+    @EventHandler
+    public void onPlayerJoin(PlayerJoinEvent event) {
+        CombatPlayer.join(event.getPlayer());
+    }
+}
